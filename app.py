@@ -6,7 +6,7 @@ import plotly.express as px
 data = pd.read_csv(r'C:\Users\crist\Documents\Documentos\ds_my_projects\app_web\vehicles_us.csv')
 
 # Encabezado
-st.header('Panel de Control de Anuncios de Venta de Coches')
+st.header('Panel de Control de Anuncios de Venta de vehiculos')
 
 # Crear una casilla de verificación para el histograma
 build_histogram = st.checkbox('Construir un histograma')
